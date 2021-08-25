@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  top: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: -webkit-gradient(linear, right top, left top, from(#ADD8E6), to(#09a5da));
+  background: linear-gradient(to left, #ADD8E6, #09a5da);
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+  font-family: 'Cabin', sans-serif;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container {
+  height: 40rem;
+  min-width: 25rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+
+.btn {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.btn input {
+  border: none;
+  outline: none;
+  padding: 15px;
+  width: 100%;
+  border-radius: 8px;
+  font-size: 15px;
+  -webkit-box-shadow: 3x 3px 22px lightgrey;
+          box-shadow: 3x 3px 22px lightgrey;
+}
+
+.btn button {
+  position: absolute;
+  top: 50%;
+  left: 90%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border: none;
+  cursor: pointer;
+  padding: 5px 15px;
+  background-color: #00bfff;
+  font-size: 15px;
+  border-radius: 6px;
+}
+
+.body {
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: black;
+  overflow-y: scroll;
+  height: 30rem;
+  width: 100%;
+  border-radius: 8px;
+  -webkit-box-shadow: 3px 3px 22px lightgrey;
+          box-shadow: 3px 3px 22px lightgrey;
+  position: relative;
+}
+
+.body .todo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 95%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 2px solid #ADD8E6;
+  font-size: 18px;
+  margin: 10px;
+  overflow: hidden;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  padding: 5px;
+}
+
+.body i {
+  color: red;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
